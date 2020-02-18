@@ -25,7 +25,6 @@
     object # Can be defined from C API or Vent
     function # Can be defined from C API or Vent
 
-
 # Example Config
 
     SomeNamespace
@@ -96,8 +95,8 @@
 - Run on same thread but interleaved
 
 # Threads
-- Support multiple threads
-- May be a Version2 thing 
+- Support different threads
+- Most likely will be a Version2 thing 
 
 # Interned strings
 
@@ -121,3 +120,4 @@
 
 # Class system with inheritence and casting
 - Casting using 'as' expression
+- Each object instance gets its own unique id
