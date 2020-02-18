@@ -1,5 +1,5 @@
 #include "vent.h"
 
 int test() {
-	return 99;
+	return sizeof(char);
 }
