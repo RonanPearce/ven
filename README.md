@@ -1,2 +1,2 @@
-# vent
-Vent Game Scripting Language
+# ven
+Ven Game Scripting Language
