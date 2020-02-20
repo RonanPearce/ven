@@ -103,9 +103,10 @@
 
 # Exception Raising and handling
 
-# Garbage Collection
-- Incremental
+# Garbage Collection vs Explicit Ownership
+- Incremental GC
 - Generational if possible
+- Investigate using an ownership model (not the same as Rust)
 
 # C API
 - Access to objects
@@ -128,4 +129,6 @@
 - 
 
 # Inbuilt memory and performance profiling
+
+# Static Analyser and Linter
 
