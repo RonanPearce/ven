@@ -123,6 +123,30 @@
 # Class system with inheritence and casting
 - Casting using 'as' expression
 - Each object instance gets its own unique id
+    class Player isA Character {
+       int someField;
+       
+       int otherField {
+           get {
+               return 123;
+           }
+       }
+       
+       void someMethod(int someArgs) {
+       
+       }
+       
+       tags {
+           someTag,
+           not someOtherTag,
+       }
+       behaviours {
+           someBehaviour {
+               someExtraValues
+           },
+           not otherBehaviour,
+       }
+    }
 
 # Jobs
 - Each VM can run separate jobs (like coroutines but they can be paused at any stage externally)
